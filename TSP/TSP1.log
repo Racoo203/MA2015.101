@@ -1,0 +1,144 @@
+--- Job TSP.gms Start 08/15/24 23:45:45 46.4.0 2cbe6e3b WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\46\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input C:\Users\Raul\OneDrive\Escritorio\CS\MA2015.101\TSP\TSP.gms
+    PageSize 0
+    ScrDir C:\Users\Raul\OneDrive\Escritorio\CS\MA2015.101\TSP\225a\
+    SysDir C:\GAMS\46\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: GAMS Community License for Raul Correa         G240415|0002AO-GEN
+          INSTITUTO TECNOLOGICO Y DE EST. SUP. DE MONTERREY, IndustrCL13752
+          C:\Users\Raul\OneDrive\Documents\GAMS\gamslice.txt
+          Raul Correa, a01722401@tec.mx                                    
+          Community license for demonstration and instructional purposes only
+Processor information: 1 socket(s), 2 core(s), and 4 thread(s) available
+GAMS 46.4.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- TSP.gms(30) 3 Mb
+--- Starting execution: elapsed 0:00:00.012
+--- TSP.gms(1) 4 Mb
+--- Generating MIP model transpor_1
+--- TSP.gms(30) 4 Mb
+---   45 rows  56 columns  238 non-zeroes
+---   49 discrete-columns
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.000E+00, 6.000E+00] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E+00, 1.000E+00] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.000E+00, 9.990E+02]
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.202
+
+IBM ILOG CPLEX   46.4.0 2cbe6e3b Apr 2, 2024           WEI x86 64bit/MS Window
+
+*** This solver runs with a community license. No commercial use.
+--- GMO setup time: 0.00s
+--- GMO memory 0.51 Mb (peak 0.51 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 22.1.1.0 link memory 0.00 Mb (peak 0.01 Mb)
+--- Starting Cplex
+
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Advance                                 0
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   1.0000000000000001e-05
+Generic callback                                 0x50
+Found incumbent of value 6993.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 1 columns.
+Reduced MIP has 44 rows, 55 columns, and 188 nonzeros.
+Reduced MIP has 49 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.09 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 44 rows, 55 columns, and 188 nonzeros.
+Reduced MIP has 49 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.13 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+Clique table members: 29.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Parallel mode: deterministic, using up to 1 threads for parallel tasks at root LP.
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.02 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            54.000000
+Root relaxation solution time = 0.00 sec. (0.08 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         6993.0000        0.0000           100.00%
+Found incumbent of value 6993.000000 after 0.00 sec. (0.55 ticks)
+      0     0       61.2857    16     6993.0000       61.2857       17   99.12%
+      0     0       63.0000    15     6993.0000      Cuts: 10       27   99.10%
+*     0+    0                           64.0000       63.0000             1.56%
+Found incumbent of value 64.000000 after 0.01 sec. (1.16 ticks)
+      0     0       63.0000    10       64.0000      Cuts: 10       34    1.56%
+*     0+    0                           63.0000       63.0000             0.00%
+Found incumbent of value 63.000000 after 0.01 sec. (1.80 ticks)
+      0     0  -1.00000e+75     0       63.0000       63.0000       34    0.00%
+      0     0        cutoff             63.0000       63.0000       34    0.00%
+Elapsed time = 0.01 sec. (1.83 ticks, tree = 0.01 MB)
+
+Clique cuts applied:  3
+Cover cuts applied:  1
+Implied bound cuts applied:  5
+Mixed integer rounding cuts applied:  2
+Zero-half cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (1.83 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (1.83 ticks)
+
+--- MIP status (101): integer optimal solution.
+--- Cplex Time: 0.03sec (det. 1.83 ticks)
+
+--- Returning a primal only solution to GAMS (marginals all set to NA).
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Advance                                 2
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   1.0000000000000001e-05
+Tried aggregator 1 time.
+LP Presolve eliminated 14 rows and 50 columns.
+Reduced LP has 30 rows, 6 columns, and 60 nonzeros.
+Presolve time = 0.00 sec. (0.04 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =            63.000000
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.00sec (det. 0.08 ticks)
+
+
+Proven optimal solution
+MIP Solution:           63.000000    (34 iterations, 0 nodes)
+Final Solve:            63.000000    (5 iterations)
+
+Best possible:          63.000000
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Reading solution for model transpor_1
+*** Status: Normal completion
+--- Job TSP.gms Stop 08/15/24 23:45:45 elapsed 0:00:00.553

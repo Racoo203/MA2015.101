@@ -1,0 +1,20 @@
+B 3 C o m p i l a t i o n
+B 41 Equation Listing    SOLVE transpor_1 Using MIP From line 30
+D 44 Obj
+D 49 r1
+D 60 r2
+D 71 r3
+B 83 Column Listing      SOLVE transpor_1 Using MIP From line 30
+E 86 z
+E 93 u
+E 136 x
+B 159 Range Statistics    SOLVE transpor_1 Using MIP From line 30
+B 170 Model Statistics    SOLVE transpor_1 Using MIP From line 30
+B 183 Solution Report     SOLVE transpor_1 Using MIP From line 30
+F 228 Obj
+F 230 r1
+F 242 r2
+F 254 r3
+G 291 z
+G 293 u
+G 304 x
