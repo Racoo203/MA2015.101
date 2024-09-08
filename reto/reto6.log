@@ -1,0 +1,38 @@
+
+Kill Job #14534185 Request sent to prod-sub-1.neos-server.org:
+0
+
+
+--- Job ? Start 09/08/24 12:37:42 47.5.0 d6b95593 WEX-WEI x86 64bit/MS Windows
+*** 
+*** GAMS Base Module 47.5.0 d6b95593 Aug 29, 2024          WEI x86 64bit/MS Window
+*** 
+*** GAMS Development Corporation
+*** 2751 Prosperity Ave, Suite 210
+*** Fairfax, VA 22031, USA
+*** +1 202-342-0180, +1 202-342-0181 fax
+*** support@gams.com, www.gams.com
+*** 
+*** GAMS Release     : 47.5.0 d6b95593 WEX-WEI x86 64bit/MS Windows
+*** Release Date     : Aug 29, 2024         
+*** To use this release, you must have a valid license file for
+*** this platform with maintenance expiration date later than
+*** Jun 13, 2024
+*** System Directory : C:\GAMS\47\
+***
+*** License          : C:\Users\rcorr\Documents\GAMS\gamslice.txt
+*** GAMS Community License for Raul Correa         G240415|0002AO-GEN
+*** INSTITUTO TECNOLOGICO Y DE EST. SUP. DE MONTERREY, Industrial Eng
+*** CL13752 05                                                       
+*** Raul Correa, a01722401@tec.mx                                    
+***
+*** Licensed platform                             : Generic platforms
+*** The installed license is valid.
+*** Evaluation expiration date (GAMS base module) : Apr 10, 2025
+*** Note: For solvers, other expiration dates may apply.
+*** Status: Normal completion
+--- Job ? Stop 09/08/24 12:37:42 elapsed 0:00:00.004
+
+--- switch to NEOS .\reto6\solve.lst
+Job 14534244 dispatched
+password: IvitQmUC

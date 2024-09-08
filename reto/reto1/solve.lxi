@@ -1,0 +1,12 @@
+B 3 C o m p i l a t i o n
+B 11 Range Statistics    SOLVE transpor_1 Using MIP From line 231
+B 22 Model Statistics    SOLVE transpor_1 Using MIP From line 231
+B 35 Solution Report     SOLVE transpor_1 Using MIP From line 231
+F 82 Obj
+F 84 r1
+F 289 r2
+F 494 r3
+G 39903 z
+G 39905 u
+G 40109 x
+B 80120 E x e c u t i o n
